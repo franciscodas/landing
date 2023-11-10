@@ -1,0 +1,5 @@
+body{
+    background-image: linear-gradient(to bottom, rgb(180, 102, 102), rgb(120, 211, 120));
+    height: 100vh;
+    color: bisque;
+}

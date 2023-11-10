@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body{
+     background-image: url(/imagens/foto2.jpg);
+     background-size: cover;
+     background-position: center;
+}
+.sec1{
+    display: flex;
+}
+.corpo{
+    height: 100vh;
+    background-image: linear-gradient(45deg, black, rgba(17, 12, 13, 0.226), rgb(16, 17, 19));
+    align-items: center;
+}
+.pricipal{
+    align-items: center;
+    display: none;
+}
+#foto{
+    display: flex;
+    align-items: center;
+    width: 100vh;
+    margin-left: 100px;
+    
+}
+.clo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+#divi1{
+    margin-top: 70px;
+}
+.ft{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.ft1{
+    margin-left: -87px;
+    margin-top: -250px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.ft2{
+    margin-top: 300px;
+    margin-left: -75px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.ft3{
+    margin-left: -87px;
+    margin-top: -250px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.tito{
+    width: 100vh;
+    font-weight: bolder;
+    font-size:40pt;
+    color: aliceblue; 
+    margin-left: 70px;
+}
+.validate1{
+    background: rgba(0, 0, 0, 0.205);
+    height: 500px;
+    border-radius: 20px;
+    width: 400px;
+    color: aliceblue;
+    margin-top: 70px;
+}
+.validate{
+    background: rgba(0, 0, 0, 0.205);
+    height: 500px;
+    border-radius: 20px;
+    width: 400px;
+    color: aliceblue;
+    margin-left: 70px;
+}
+.dv >h2{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-left: 70px;
+    
+}
+span{
+    margin-left: -45px;
+    font-size: 19px;
+}
+.input-box{
+    margin-left: 25px;
+   width: 200px;
+   margin-top: 20px;
+}
+input{
+    width: 320px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.788);
+}
+
+.butom{
+    text-align: center;
+    width: 80px;
+    padding: 15px;
+    margin-top: 90px;
+    margin-left: 39%;
+    font-size: 13pt;
+    font-weight: bolder;
+    color: white;
+    background-image: linear-gradient(90deg, rgb(255, 0, 0), rgb(236, 75, 26), rgb(252, 5, 5));
+
+}
+@media screen and (max-width:768px){
+    .corpo{
+        display: none;
+    }
+    .pricipal{
+        display: block;
+    }
+    
+}
